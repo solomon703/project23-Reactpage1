@@ -11,3 +11,101 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#head{
+  color: #fff;
+}
+#main{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+}
+.list li{
+  list-style: none;
+}
+.list li a{
+  text-decoration: none;
+  color: #fff;
+}
+#main .second #par{
+  font-size: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.check1{
+  position: fixed;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.check1 ul{
+  display: flex;
+  background-color: black;
+  height: 50px;
+  color: #fff;
+  gap: 20px;
+}
+.check1 ul li{
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.check1 li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.check1 li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.check1 i{
+  color: #fff;
+}
+#input{
+  margin-left: 20px;
+  border-radius: 6px;
+  width: 20%;
+  height: 40px;
+  margin-top: 2px;
+  font-size: 20px;
+}
+#input::placeholder{
+  font-size: 19px;
+  padding: 10px;
+}
+.one{
+  height: 60vh;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.one #first{
+  height: 60vh;
+  width: 50%;
+  background-color: green;
+}
+.one #second{
+  height: 60vh;
+  width: 50%;
+  background-color: blue;
+}
+#search-but{
+  width: 5%;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  outline:none;
+  border:none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 1s ease;
+}
+#search-but:hover{
+  background-color: red;
+  color: #fff;
+}

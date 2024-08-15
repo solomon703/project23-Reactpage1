@@ -1,0 +1,8 @@
+.middle{
+  height: 90vh;
+  margin-top: 20px;
+  width: 100%;
+  background-image: url(./images/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
